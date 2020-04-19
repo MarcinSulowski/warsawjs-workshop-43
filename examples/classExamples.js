@@ -8,8 +8,12 @@ class Base {
   booleanField = true;
   arrayField = [];
   objectField = {};
-  functionField = function() { console.log(['functionField']); };
-  functionWithArrowField = () => { console.log(['functionWithArrowField']); };
+  functionField = function () {
+    console.log(['functionField']);
+  };
+  functionWithArrowField = () => {
+    console.log(['functionWithArrowField']);
+  };
   nullField = null;
 
   print() {

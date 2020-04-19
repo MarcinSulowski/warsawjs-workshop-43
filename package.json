@@ -7,7 +7,7 @@
     "example": "examples"
   },
   "scripts": {
-    "start": "npx http-server",
+    "start": "npx http-server -c-1",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +20,7 @@
     "url": "https://github.com/G3F4/warsawjs-workshop-43/issues"
   },
   "homepage": "https://github.com/G3F4/warsawjs-workshop-43#readme",
-  "dependencies": {}
+  "dependencies": {
+    "http-server": "^0.12.1"
+  }
 }

@@ -1,5 +1,3 @@
-import Model from './Model.js'
+import Model from './Model.js';
 
-export default class State extends Model {
-
-}
+export default class State extends Model {}
